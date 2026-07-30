@@ -1,7 +1,18 @@
 aid: lupuamc
-name: lupuamc
-description: lupuamc is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lupuamc.png
+name: Lu Pu Investment (陆浦投资)
+description: Lu Pu Investment (陆浦投资), operating through Shanghai Luxiang Fund Sales Co., Ltd. (上海陆享基金销售有限公司), is a China-based wealth-management and public mutual-fund distribution business serving retail investors. It offers fund subscription and purchase (认/申购), automatic investment plans (定投), and wealth-advisory services through dedicated financial advisors, delivered via its website and mobile app. Surfaced as a portfolio company of Qiming Venture Partners. No public developer, API, or technical integration surface was found during enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/lupuamc/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +22,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Financial Services
+- Fund Management
+- Wealth Management
+- Investment
+- Mutual Funds
+- China
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +39,9 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://lupuamc.com
+  url: https://www.lupuamc.com
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
