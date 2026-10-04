@@ -36,7 +36,7 @@ created: '2026-07-17'
 modified: '2026-07-20'
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Fund Management
 - Wealth Management
 - Investment
@@ -50,6 +50,7 @@ tags_raw:
 - Investment
 - Mutual Funds
 - China
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
